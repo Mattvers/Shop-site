@@ -87,7 +87,13 @@ p {
 .section-header {
     padding: 42px 0 20px;
     font-size: 22px;
-    color: #FF1100;
+    color: #3825FF;
+}
+
+@media screen and (min-width: 1024px){
+    .section-header {
+        padding: 0;
+    }
 }
 
 /* -----HEADER----- */
@@ -164,7 +170,7 @@ header {
 
 .top a:hover {
     color: #4C5A7D;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;    
 }
 
 nav {
@@ -193,4 +199,169 @@ nav a{
     nav a{
         font-size: 24px;
     }
+}
+
+/* -----MAIN STYLES----- */
+
+@media screen and (min-width: 1024px){
+    .section-welcome h1 {
+        margin: 160px 0 70px;
+        font-size: 70px;
+    }
+    .section-two h1 {
+        margin: 25px 0 50px;
+        font-size: 34px;
+    }
+}
+
+.welcome-first-image {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .welcome-first-image {
+        display: inline-block;
+}
+}
+
+.section-two {
+    padding: 0 10% 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .section-two {
+    padding: 0 10% 60px;
+    }
+}
+
+.section-two img {
+    padding: 20px 0 0;
+    max-width: 30%;
+}
+
+@media screen and (min-width: 1024px){
+    .section-two img {
+        padding: 65px 0 0;
+    }
+}
+
+.section-welcome img {
+    width: 47%;
+    display: inline-block;
+}
+
+.section-offer {
+    padding: 30px 10% 50px;
+    background: url('../graphic/fault.jpeg') 0 0;
+}
+
+@media screen and (min-width: 1024px){
+    .section-offer {
+        padding: 65px 20% 130px;
+}
+}
+
+.section-offer-single img {
+    margin: 0 0 20px;
+    max-width: 10%;
+}
+
+.section-offer-single p {
+    color: white;
+}
+
+.section-offer-single:first-child {
+    margin: 0 0 45px;
+}
+
+.section-newsletter {
+    background-color: #EFEEE9;
+    padding: 40px 0 20px;
+}
+
+@media screen and (min-width: 1024px){
+    .section-newsletter {   
+        padding: 100px 0 20px;
+    }
+}
+
+.section-newsletter h2 {
+    margin: 0 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4421FF;
+}
+
+@media screen and (min-width: 1024px){
+    .section-newsletter h2 {
+        font-size: 24px;
+    }
+}
+
+.section-newsletter form {
+    margin: 0 0 30px;
+}
+
+.section-newsletter input {
+    display: block;
+    width: 35%;
+    border: 1px solid #D2CFC6;
+    height: 30px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 0 0 0 20px; 
+    margin: 0 auto 10px;
+}
+
+@media screen and (min-width: 1024px){
+    .section-newsletter input{
+        display: inline-block;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+.section-newsletter button {
+    padding: 10px 40px;
+    border: 1px solid #4421FF;
+    background-color: #4421FF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px){
+    .section-newsletter button {
+        padding: 18px 60px;
+        margin: 0 0 0 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .section-newslatter-wrapper {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+.social-links img {
+    max-width: 10%;
+}
+
+@media screen and (min-width: 1024px){
+    .social-links img {
+        margin: 60 px 0 0;
+    }
+}
+/* ----- FOOTER ----- */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
 }
