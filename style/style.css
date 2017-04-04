@@ -50,7 +50,7 @@ table {
 /* -----GLOBAL STYLES----- */
 
 body {
-    background-color: #8FBB0C;
+    background-color: #EEEEEE;
     color: #333333;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -97,7 +97,7 @@ header {
 }
 
 .logo-bar {
-    background-color: #5AAA1D;
+    background-color: #DDDDDD;
     padding: 10px 0;
 }
 
@@ -109,4 +109,88 @@ header {
 
 .logo-bar img {
     max-width: 20%;
+}
+
+.top {
+    padding: 70px 0 40px;
+    color: #FFFFFF;
+    font-family: 'Source Serif Pro', serif;
+    background: url('../graphic/header.jpg') 0 0;
+    background-size: cover;
+}
+
+.top h1{
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .top h1 {
+        margin-bottom: 80px;
+        font-size: 165px;
+    }
+}
+
+.top p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+    .top p {
+        font-size: 50px;
+    }
+}
+
+.top a{
+    margin: 20px 0 0;
+    display: inline-block;
+    padding: 10px 24px;
+    color: #EEEEEE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid #EEEEEE;
+}
+
+@media screen and (min-width: 1024px) {
+    .top a {
+        margin: 40px 0 0;
+        padding: 20px 50px;
+        font-size: 26px;
+    }
+}
+
+.top a:hover {
+    color: #4C5A7D;
+    background-color: #FFFFFF;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 1px 1px 0 #AAAAAA;
+}
+
+nav li {
+    padding: 15px 0;   
+}
+
+@media screen and (min-width: 1024px) {
+    nav li {
+        padding: 50px;
+        display: inline-block;
+    }
+}
+
+nav a{
+    color: #3825FF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px){
+    nav a{
+        font-size: 24px;
+    }
 }
